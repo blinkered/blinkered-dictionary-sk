@@ -8,9 +8,9 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 287,672. Shipped: 79,311.
+Candidates: 287,672. Shipped: 138,362.
 
-Of 5 families, **4 can be checked by fetching** —
+Of 21 families, **20 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
 somebody else made, whose locators record where they found the sentence; the document that holds
 it is their published corpus, not the web.
@@ -19,8 +19,24 @@ it is their published corpus, not the web.
 | --- | --- | --- | --- | --- |
 | 1 | `wikimedia` | 0 | 0.0% | — |
 | 2 | `leipzig` | 0 | 0.0% | — |
-| 3 | `internetarchive` | 73,959 | 25.7% | +73,959 |
-| 4 | `tatoeba` | 77,114 | 26.8% | +3,155 |
-| 5 | `ebible` | 79,311 | 27.6% | +2,197 |
+| 3 | `internetarchive` | 122,852 | 42.7% | +122,852 |
+| 4 | `sita.sk` | 127,079 | 44.2% | +4,227 |
+| 5 | `aktuality.sk` | 129,268 | 44.9% | +2,189 |
+| 6 | `startitup.sk` | 131,221 | 45.6% | +1,953 |
+| 7 | `hnonline.sk` | 132,386 | 46.0% | +1,165 |
+| 8 | `postoj.sk` | 133,397 | 46.4% | +1,011 |
+| 9 | `tatoeba` | 134,386 | 46.7% | +989 |
+| 10 | `ebible` | 135,329 | 47.0% | +943 |
+| 11 | `hlavnespravy.sk` | 136,131 | 47.3% | +802 |
+| 12 | `stvr.sk` | 136,694 | 47.5% | +563 |
+| 13 | `pravda.sk` | 137,137 | 47.7% | +443 |
+| 14 | `noviny.sk` | 137,487 | 47.8% | +350 |
+| 15 | `topky.sk` | 137,697 | 47.9% | +210 |
+| 16 | `refresher.sk` | 137,884 | 47.9% | +187 |
+| 17 | `cas.sk` | 138,065 | 48.0% | +181 |
+| 18 | `litcentrum.sk` | 138,170 | 48.0% | +105 |
+| 19 | `trend.sk` | 138,237 | 48.1% | +67 |
+| 20 | `dobrenoviny.sk` | 138,304 | 48.1% | +67 |
+| 21 | `tasr.sk` | 138,362 | 48.1% | +58 |
 
-**Diminishing returns from family 4** (`tatoeba`, +3,155), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 4** (`sita.sk`, +4,227), where a family first added less than a twentieth of what the best one did.

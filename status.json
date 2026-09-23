@@ -2,14 +2,14 @@
   "language": "sk",
   "built": "2026-09-23",
   "candidates": 287672,
-  "shipped": 79311,
+  "shipped": 138362,
   "ships": "pending",
   "decided": null,
   "why": null,
   "license": null,
   "conforms": true,
-  "families": 5,
-  "checkable": 4,
+  "families": 21,
+  "checkable": 20,
   "knee": 4,
   "steps": [
     {
@@ -29,23 +29,135 @@
     {
       "families": 3,
       "added": "internetarchive",
-      "kept": 73959,
-      "share": 0.257095,
-      "gained": 73959
+      "kept": 122852,
+      "share": 0.427056,
+      "gained": 122852
     },
     {
       "families": 4,
-      "added": "tatoeba",
-      "kept": 77114,
-      "share": 0.268062,
-      "gained": 3155
+      "added": "sita.sk",
+      "kept": 127079,
+      "share": 0.44175,
+      "gained": 4227
     },
     {
       "families": 5,
+      "added": "aktuality.sk",
+      "kept": 129268,
+      "share": 0.449359,
+      "gained": 2189
+    },
+    {
+      "families": 6,
+      "added": "startitup.sk",
+      "kept": 131221,
+      "share": 0.456148,
+      "gained": 1953
+    },
+    {
+      "families": 7,
+      "added": "hnonline.sk",
+      "kept": 132386,
+      "share": 0.460198,
+      "gained": 1165
+    },
+    {
+      "families": 8,
+      "added": "postoj.sk",
+      "kept": 133397,
+      "share": 0.463712,
+      "gained": 1011
+    },
+    {
+      "families": 9,
+      "added": "tatoeba",
+      "kept": 134386,
+      "share": 0.46715,
+      "gained": 989
+    },
+    {
+      "families": 10,
       "added": "ebible",
-      "kept": 79311,
-      "share": 0.275699,
-      "gained": 2197
+      "kept": 135329,
+      "share": 0.470428,
+      "gained": 943
+    },
+    {
+      "families": 11,
+      "added": "hlavnespravy.sk",
+      "kept": 136131,
+      "share": 0.473216,
+      "gained": 802
+    },
+    {
+      "families": 12,
+      "added": "stvr.sk",
+      "kept": 136694,
+      "share": 0.475173,
+      "gained": 563
+    },
+    {
+      "families": 13,
+      "added": "pravda.sk",
+      "kept": 137137,
+      "share": 0.476713,
+      "gained": 443
+    },
+    {
+      "families": 14,
+      "added": "noviny.sk",
+      "kept": 137487,
+      "share": 0.47793,
+      "gained": 350
+    },
+    {
+      "families": 15,
+      "added": "topky.sk",
+      "kept": 137697,
+      "share": 0.47866,
+      "gained": 210
+    },
+    {
+      "families": 16,
+      "added": "refresher.sk",
+      "kept": 137884,
+      "share": 0.47931,
+      "gained": 187
+    },
+    {
+      "families": 17,
+      "added": "cas.sk",
+      "kept": 138065,
+      "share": 0.479939,
+      "gained": 181
+    },
+    {
+      "families": 18,
+      "added": "litcentrum.sk",
+      "kept": 138170,
+      "share": 0.480304,
+      "gained": 105
+    },
+    {
+      "families": 19,
+      "added": "trend.sk",
+      "kept": 138237,
+      "share": 0.480537,
+      "gained": 67
+    },
+    {
+      "families": 20,
+      "added": "dobrenoviny.sk",
+      "kept": 138304,
+      "share": 0.48077,
+      "gained": 67
+    },
+    {
+      "families": 21,
+      "added": "tasr.sk",
+      "kept": 138362,
+      "share": 0.480971,
+      "gained": 58
     }
   ]
 }

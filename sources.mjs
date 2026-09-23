@@ -8,7 +8,7 @@
  * text would confirm every Slovak candidate that happens to be spelled the Czech way, so every
  * collection here is Slovak by construction: the Slovak Wikipedia, Leipzig's Slovak news and
  * `.sk` web, Slovak Tatoeba, a Slovak New Testament, and Archive books whose metadata says
- * Slovak and whose text agrees (see `archive-sk/rejected.tsv` for what was turned away).
+ * Slovak and whose text agrees (the README says what was turned away).
  *
  * Every URL here was probed before it was written down. A collection that 404s does not fail
  * loudly; the build skips it with a warning and reports a healthy number over fewer families.
@@ -127,13 +127,16 @@ export const SOURCES = ALL.filter((source) => {
  *
  * Chosen because they publish in Slovak rather than because they are large. A harvester reads
  * whatever it fetches and has no idea what language it is in, and for Slovak the danger is
- * Czech: a Czech page would confirm every candidate the two languages spell alike. The last group
- * is literary and cultural, for a register the dailies never reach.
+ * Czech: a Czech page would confirm every candidate the two languages spell alike. The first is
+ * literary, for a register the dailies never reach, and goes first because a harvest is routinely
+ * interrupted. Sibling domains are left out: teraz.sk is TASR's and zive.sk is Aktuality's.
  */
 export const DOMAINS = [
-  'pravda.sk', 'aktuality.sk', 'hnonline.sk', 'stvr.sk', 'tasr.sk',
-  'topky.sk', 'noviny.sk', 'sita.sk',
   'litcentrum.sk',
+  'pravda.sk', 'aktuality.sk', 'hnonline.sk', 'stvr.sk', 'tasr.sk',
+  'topky.sk', 'noviny.sk', 'sita.sk', 'cas.sk', 'startitup.sk',
+  'hlavnespravy.sk', 'postoj.sk', 'refresher.sk',
+  'dobrenoviny.sk', 'trend.sk',
 ]
 
 export const HARVEST = existsSync(new URL('searched.tsv', import.meta.url).pathname)

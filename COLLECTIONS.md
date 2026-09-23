@@ -13,13 +13,29 @@ collection rather than reuse its record only has to put the file back where the 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
 | `wiki:sk` | 53,188,744 | Slovak Wikipedia; modern encyclopedic prose | [skwiki.xml.bz2](https://dumps.wikimedia.org/skwiki/latest/skwiki-latest-pages-articles.xml.bz2) |
+| `ia` | 12,492,183 | Internet Archive Slovak books; literature, and the register a newspaper never reaches | [archive-sk](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Slovak%22+OR+language%3Aslo+OR+language%3Aslk%29) |
 | `lz:slk-sk_web_2016_1M` | 4,210,502 | Leipzig slk-sk_web_2016_1M; news and web, cited by the page each sentence came from | [slk-sk_web_2016_1M](https://downloads.wortschatz-leipzig.de/corpora/slk-sk_web_2016_1M.tar.gz) |
 | `lz:slk_newscrawl_2016_1M` | 3,632,538 | Leipzig slk_newscrawl_2016_1M; news and web, cited by the page each sentence came from | [slk_newscrawl_2016_1M](https://downloads.wortschatz-leipzig.de/corpora/slk_newscrawl_2016_1M.tar.gz) |
-| `ia` | 2,525,187 | Internet Archive Slovak books; literature, and the register a newspaper never reaches | [archive-sk](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Slovak%22+OR+language%3Aslo+OR+language%3Aslk%29) |
+| `web:hlavnespravy.sk` | 2,165,816 |  | fetched from `hlavnespravy.sk`, recorded in `searched.tsv` |
+| `web:sita.sk` | 662,106 |  | fetched from `sita.sk`, recorded in `searched.tsv` |
+| `web:startitup.sk` | 476,121 |  | fetched from `startitup.sk`, recorded in `searched.tsv` |
+| `web:refresher.sk` | 472,791 |  | fetched from `refresher.sk`, recorded in `searched.tsv` |
+| `web:hnonline.sk` | 407,852 |  | fetched from `hnonline.sk`, recorded in `searched.tsv` |
 | `wikisource:sk` | 383,907 | Slovak Wikisource; same Wikimedia family, so it corroborates rather than counts | [skwikisource.xml.bz2](https://dumps.wikimedia.org/skwikisource/latest/skwikisource-latest-pages-articles.xml.bz2) |
+| `web:aktuality.sk` | 305,078 |  | fetched from `aktuality.sk`, recorded in `searched.tsv` |
+| `web:postoj.sk` | 278,281 |  | fetched from `postoj.sk`, recorded in `searched.tsv` |
+| `web:pravda.sk` | 168,497 |  | fetched from `pravda.sk`, recorded in `searched.tsv` |
+| `web:stvr.sk` | 162,815 |  | fetched from `stvr.sk`, recorded in `searched.tsv` |
 | `lz:slk_news_2020_100K` | 137,003 | Leipzig slk_news_2020_100K; news and web, cited by the page each sentence came from | [slk_news_2020_100K](https://downloads.wortschatz-leipzig.de/corpora/slk_news_2020_100K.tar.gz) |
+| `web:noviny.sk` | 130,139 |  | fetched from `noviny.sk`, recorded in `searched.tsv` |
+| `web:topky.sk` | 118,936 |  | fetched from `topky.sk`, recorded in `searched.tsv` |
 | `tat` | 116,664 | Tatoeba Slovak; contemporary and conversational | [slk_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/slk/slk_sentences.tsv.bz2) |
 | `ebible:slk` | 108,469 | Biblica Nádej pre každého, a Slovak New Testament; a family nothing else here belongs to | [slk_vpl.txt](https://ebible.org/Scriptures/slk_vpl.zip) |
+| `web:litcentrum.sk` | 78,457 |  | fetched from `litcentrum.sk`, recorded in `searched.tsv` |
+| `web:cas.sk` | 56,858 |  | fetched from `cas.sk`, recorded in `searched.tsv` |
+| `web:tasr.sk` | 36,567 |  | fetched from `tasr.sk`, recorded in `searched.tsv` |
+| `web:dobrenoviny.sk` | 32,526 |  | fetched from `dobrenoviny.sk`, recorded in `searched.tsv` |
+| `web:trend.sk` | 32,370 |  | fetched from `trend.sk`, recorded in `searched.tsv` |
 
 Totals are playable tokens after folding, not bytes. A collection missing from this table was
 never scanned; one present with no link was fetched by hand and its path is given instead.
